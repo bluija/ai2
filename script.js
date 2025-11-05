@@ -22,7 +22,7 @@ const minDots = 256;
 const maxDots = 256;
 
 const dotSize = 8;
-const numTrial = 3;
+const numTrial = 50;
 
 // https://davidmathlogic.com/colorblind/#%23D81B60-%231E88E5-%23FFC107-%23004D40
 const clrs = {"Blue": "#1E88E5", "Yellow": "#FFC107"}
@@ -186,7 +186,7 @@ startButton.onclick = async () => {
 
     introJs().setOptions({
         exitOnEsc: false, exitOnOverlayClick: false,
-        // showBullets: false, keyboardNavigation: false,
+        showBullets: false, keyboardNavigation: false,
 
         steps: [{
             title: 'Welcome',
